@@ -2,7 +2,7 @@ on:
   schedule:
     - cron: '30 08 * * *'
   workflow_dispatch:
-  
+
 jobs:
   rss-gist:
     runs-on: ubuntu-latest
@@ -21,6 +21,10 @@ jobs:
       - name: generate feeds report
         run: python tt.py
       - name: install node.js fs module
+        uses: actions/setup-node@v3
+        with:
+          node-version: 14
+          cache: 'npm'
         run: npm install fs
       - name: create issue comment
         uses: actions/github-script@v6
@@ -28,7 +32,7 @@ jobs:
           github-token: ${{secrets.GITHUB_TOKEN}}
           script: |
             const fs = require('fs')
-            if (fs.existSync('result.txt')) {
+            if (fs.existsSync('result.txt')) {
               github.rest.issues.createComment({
                 issue_number: 1,
                 owner: context.repo.owner,
