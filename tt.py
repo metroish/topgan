@@ -37,6 +37,10 @@ def save_url(urlstring):
 	with open("url.txt", "w", encoding = "UTF-8") as file:
 		file.write(urlstring)
 
+def save_result(result_string):
+	with open("result.txt", "w", encoding = "UTF-8") as file:
+		file.write(result_string)
+
 url_list = load_url()
 result = ""
 update_urltxt = ""
@@ -44,6 +48,7 @@ update_urltxt = ""
 for list in url_list:
 	urlstring = list.split("|")[0]
 	timestring = list.split("|")[1]
+	nowstring = ""
 	feed = get_response(urlstring)
 	if feed != "fail":
 		item_list = parsing_xml(feed)
@@ -53,12 +58,17 @@ for list in url_list:
 				last_date = parser.parse(timestring)
 				if pub_date.timestamp() > last_date.timestamp():
 					result += item_obj.get_string()
-					timestring = datetime.strftime(datetime.now(), '%Y-%m-%d %H:%M:%S')
-			update_urltxt = update_urltxt + urlstring + "|" + timestring + "\n"
+					nowstring = datetime.strftime(datetime.now(), '%Y-%m-%d %H:%M:%S')
+			if nowstring != "":
+				update_urltxt = update_urltxt + urlstring + "|" + nowstring + "\n"
+			else:
+				update_urltxt = update_urltxt + list + "\n"
 		else:
 			update_urltxt = update_urltxt + list + "\n"
 	else:
 		update_urltxt = update_urltxt + list + "\n"
 
 save_url(update_urltxt)
-print(result)
+if result != "":
+	result = "# " + datetime.strftime(datetime.now(), '%Y-%m-%d %H:%M:%S') + " Feeds Report \n" + result
+	save_result(result)

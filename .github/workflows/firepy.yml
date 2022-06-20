@@ -1,0 +1,43 @@
+on:
+  schedule:
+    - cron: '0 */4 * * *'
+
+jobs:
+  rss-gist:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+      - name: install python dependency
+        run: pip install -r requirements.txt
+      - name: purge old result.txt
+        run: rm -rf result.txt
+      - name: generate feeds report
+        run: python tt.py
+      - name: install node.js fs module
+        run: npm insatll fs
+      - name: create issue comment
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{secrets.GITHUB_TOKEN}}
+          script: |
+            const fs = require('fs')
+            if (fs.existSync('result.txt')) {
+              github.rest.issues.createComment({
+                issue_number: 1,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: fs.readFileSync('result.txt')
+              })
+            }
+      - name: update to repository
+        run: |
+          git config --global user.name 'midcielab'
+          git config --global user.email '8260430+midcielab@users.noreply.github.com'
+          git commit -am "Update by GitHub Action $(date)"
+          git push origin main -f
