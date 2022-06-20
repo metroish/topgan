@@ -1,2 +1,5 @@
 __pycache__
 result.txt
+node_modules
+package-lock.json
+package.json
