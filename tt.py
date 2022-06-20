@@ -33,17 +33,22 @@ def load_url():
 		url_list = file.read().splitlines()
 		return url_list
 
-def save_url(urlstring):
+def save_url(url_string):
 	with open("url.txt", "w", encoding = "UTF-8") as file:
-		file.write(urlstring)
+		file.write(url_string)
 
 def save_result(result_string):
 	with open("result.txt", "w", encoding = "UTF-8") as file:
 		file.write(result_string)
 
+def save_log(log_string):
+	with open("log.txt", "w", encoding = "UTF-8") as file:
+		file.write(log_string)
+
 url_list = load_url()
 result = ""
 update_urltxt = ""
+log = datetime.strftime(datetime.now(), '%Y-%m-%d %H:%M:%S') + " Feeds Report Log\n"
 
 for list in url_list:
 	urlstring = list.split("|")[0]
@@ -63,12 +68,16 @@ for list in url_list:
 				update_urltxt = update_urltxt + urlstring + "|" + nowstring + "\n"
 			else:
 				update_urltxt = update_urltxt + list + "\n"
+			log = log + urlstring + " -> ok\n"
 		else:
+			log = log + urlstring + " -> fail\n"
 			update_urltxt = update_urltxt + list + "\n"
 	else:
+		log = log + urlstring + " -> fail\n"
 		update_urltxt = update_urltxt + list + "\n"
 
 save_url(update_urltxt)
 if result != "":
 	result = "# " + datetime.strftime(datetime.now(), '%Y-%m-%d %H:%M:%S') + " Feeds Report \n" + result
 	save_result(result)
+save_log(log)
