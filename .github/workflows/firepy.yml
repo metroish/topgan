@@ -1,7 +1,8 @@
 on:
   schedule:
     - cron: '0 */4 * * *'
-
+  workflow_dispatch:
+  
 jobs:
   rss-gist:
     runs-on: ubuntu-latest
