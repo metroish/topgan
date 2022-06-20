@@ -41,5 +41,6 @@ jobs:
         run: |
           git config --global user.name 'midcielab'
           git config --global user.email '8260430+midcielab@users.noreply.github.com'
+          git add .
           git commit -am "Update by GitHub Action $(date)"
           git push origin main -f
