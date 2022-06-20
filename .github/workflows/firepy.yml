@@ -21,11 +21,6 @@ jobs:
         run: rm -rf result.txt
       - name: generate feeds report
         run: python tt.py
-      - name: setup node.js environment
-        uses: actions/setup-node@v3
-        with:
-          node-version: 14
-          cache: 'npm'
       - name: install node.js fs module
         run: npm install fs
       - name: create issue comment
