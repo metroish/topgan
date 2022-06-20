@@ -9,7 +9,7 @@ class Item:
 		self.link = link
 		self.pubDate = pubDate
 	def get_string(self):
-		return "\n![" + self.title + "](" + self.link + ")\n"
+		return "\n" + self.title + "\n" + self.link + "\n"
 
 def get_response(url):
 	with requests.get(url, timeout = 30) as resp:
