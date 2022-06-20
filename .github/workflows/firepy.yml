@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: '0 */4 * * *'
+    - cron: '30 08 * * *'
   workflow_dispatch:
   
 jobs:
@@ -21,7 +21,7 @@ jobs:
       - name: generate feeds report
         run: python tt.py
       - name: install node.js fs module
-        run: npm insatll fs
+        run: npm install fs
       - name: create issue comment
         uses: actions/github-script@v6
         with:
