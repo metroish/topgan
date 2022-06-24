@@ -4,18 +4,18 @@ on:
   workflow_dispatch:
 
 jobs:
-  rss-gist:
+  rss-comment-purge:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-      - name: create issue comment
+      - name: list issue comments
         uses: actions/github-script@v6
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
           script: |
-              var comment_list = github.rest.issues.listComments({
+              const comment_list = github.rest.issues.listComments({
                 issue_number: 1,
                 owner: context.repo.owner,
                 repo: context.repo.repo,
