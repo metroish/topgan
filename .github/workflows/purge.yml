@@ -21,11 +21,11 @@ jobs:
                 repo: context.repo.repo,
               });
               JSON.parse(comment_list, (key, value) => {
-                if (key === 'id') {
+                if (key === 'data') {
                   github.rest.issues.deleteComment({
                     owner: context.repo.owner,
                     repo: context.repo.repo,
-                    comment_id: value,
+                    comment_id: value['id'],
                   });
                 }
               });
