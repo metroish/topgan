@@ -20,13 +20,15 @@ jobs:
                 owner: context.repo.owner,
                 repo: context.repo.repo,
               });
-              JSON.stringify(comment_list, (key, value) => {
-                if (key === 'data') {
-                  github.rest.issues.deleteComment({
-                    owner: context.repo.owner,
-                    repo: context.repo.repo,
-                    comment_id: value['id'],
-                  });
+              for(key in comment_list) {
+                if(key === 'data') {
+                  for(idx in comment_list[key]) {
+                    github.rest.issues.deleteComment({
+                      owner: context.repo.owner,
+                      repo: context.repo.repo,
+                      comment_id: comment_list[key][idx].id,
+                    });
+                  }
                 }
-              });
+              };
 
