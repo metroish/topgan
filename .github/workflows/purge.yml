@@ -20,7 +20,7 @@ jobs:
                 owner: context.repo.owner,
                 repo: context.repo.repo,
               });
-              JSON.parse(comment_list, (key, value) => {
+              JSON.stringify(comment_list, (key, value) => {
                 if (key === 'data') {
                   github.rest.issues.deleteComment({
                     owner: context.repo.owner,
