@@ -19,5 +19,14 @@ jobs:
                 issue_number: 1,
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-              })
-              console.log(comment_list)
+              });
+              JSON.stringify(comment_list, (key, value) => {
+                if (key === 'id') {
+                  github.rest.issues.deleteComment({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    comment_id: value,
+                  });
+                }
+              });
+
