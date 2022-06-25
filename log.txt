@@ -1,3 +1,18 @@
-2022-06-24 09:14:12 Feeds Report Log
+2022-06-25 23:45:59 Feeds Report Log
 https://kaif.io/hot.rss -> ok
+https://www.daemonology.net/hn-daily/index.rss -> ok
+https://www.daemonology.net/hn-weekly-ask/index.rss -> ok
+https://feedpress.me/lobsters-daily -> ok
+https://blog.gslin.org/feed -> ok
+https://feeds.feedburner.com/Darkthread -> ok
 https://www.ithome.com.tw/rss -> ok
+https://www.inside.com.tw/feed/rss -> ok
+https://ckhung0.blogspot.com/feeds/posts/default?alt=rss -> ok
+https://newtoypia.blogspot.com/feeds/posts/default?alt=rss -> ok
+https://songmatin.blogspot.com/feeds/posts/default?alt=rss -> ok
+https://www.blogger.com/feeds/1264116278467470539/posts/default?alt=rss -> ok
+https://voicettank.org/sitemap.rss -> ok
+https://businessyee.substack.com/feed -> ok
+https://manny-li.com/feed -> ok
+https://dushuyizhi.net/feed -> ok
+https://changyuchieh.com/feed -> ok

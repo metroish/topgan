@@ -12,7 +12,8 @@ class Item:
 		return "\n" + self.title + "\n" + self.link + "\n"
 
 def get_response(url):
-	with requests.get(url, timeout = 30) as resp:
+	headers = {'user-agent': 'Mozilla/5.0 (Android 11; Mobile; rv:101.0) Gecko/101.0 Firefox/101.0'}
+	with requests.get(url, headers=headers, timeout = 30) as resp:
 		if resp.status_code == 200:
 			return resp.text
 		else:
