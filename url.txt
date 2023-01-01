@@ -1,9 +1,9 @@
-https://kaif.io/hot.rss|2022-12-29 09:12:07
-https://www.daemonology.net/hn-daily/index.rss|2022-12-31 09:11:31
-https://www.daemonology.net/hn-weekly-ask/index.rss|2022-12-25 09:11:39
-https://feedpress.me/lobsters-daily|2022-12-31 09:11:33
-https://blog.gslin.org/feed|2022-12-28 09:12:19
-https://feeds.feedburner.com/Darkthread|2022-12-31 09:11:34
+https://kaif.io/hot.rss|2023-01-01 09:11:54
+https://www.daemonology.net/hn-daily/index.rss|2023-01-01 09:11:55
+https://www.daemonology.net/hn-weekly-ask/index.rss|2023-01-01 09:11:55
+https://feedpress.me/lobsters-daily|2023-01-01 09:11:56
+https://blog.gslin.org/feed|2023-01-01 09:11:57
+https://feeds.feedburner.com/Darkthread|2023-01-01 09:11:57
 https://www.ithome.com.tw/rss|2022-12-31 09:11:35
 https://www.inside.com.tw/feed/rss|2022-12-31 09:11:35
 https://ckhung0.blogspot.com/feeds/posts/default?alt=rss|2022-11-15 09:15:15
@@ -13,6 +13,6 @@ https://www.blogger.com/feeds/1264116278467470539/posts/default?alt=rss|2022-12-
 https://voicettank.org/sitemap.rss|2022-12-31 09:11:37
 https://businessyee.substack.com/feed|2022-12-31 09:11:38
 https://manny-li.com/feed|2022-07-25 09:15:31
-https://dushuyizhi.net/feed|2022-12-30 09:12:17
+https://dushuyizhi.net/feed|2023-01-01 09:12:06
 https://changyuchieh.com/feed|2022-12-17 09:11:36
-https://feeds.feedblitz.com/baeldung&x=1|2022-12-31 09:11:44
+https://feeds.feedblitz.com/baeldung&x=1|2023-01-01 09:12:08
