@@ -1,10 +1,10 @@
 https://kaif.io/hot.rss|2023-03-17 09:13:28
-https://www.daemonology.net/hn-daily/index.rss|2023-03-17 09:13:29
+https://www.daemonology.net/hn-daily/index.rss|2023-03-18 09:11:48
 https://www.daemonology.net/hn-weekly-ask/index.rss|2023-03-12 09:11:42
-https://feedpress.me/lobsters-daily|2023-03-17 09:13:30
+https://feedpress.me/lobsters-daily|2023-03-18 09:11:50
 https://blog.gslin.org/feed|2023-03-17 09:13:31
-https://feeds.feedburner.com/Darkthread|2023-03-14 09:14:56
-https://www.ithome.com.tw/rss|2023-03-17 09:13:32
+https://feeds.feedburner.com/Darkthread|2023-03-18 09:11:51
+https://www.ithome.com.tw/rss|2023-03-18 09:11:52
 https://www.inside.com.tw/feed/rss|2023-03-17 09:13:33
 https://ckhung0.blogspot.com/feeds/posts/default?alt=rss|2023-03-11 09:11:53
 https://newtoypia.blogspot.com/feeds/posts/default?alt=rss|2022-12-11 09:12:15
@@ -15,4 +15,4 @@ https://businessyee.substack.com/feed|2023-02-04 09:12:04
 https://manny-li.com/feed|2023-02-01 09:13:38
 https://dushuyizhi.net/feed|2023-03-15 09:13:53
 https://changyuchieh.com/feed|2023-03-10 09:14:20
-https://feeds.feedblitz.com/baeldung&x=1|2023-03-16 09:14:17
+https://feeds.feedblitz.com/baeldung&x=1|2023-03-18 09:12:03
