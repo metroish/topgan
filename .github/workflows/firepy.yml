@@ -13,7 +13,7 @@ jobs:
       - name: setup python environment
         uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
+          python-version: '3.11'
           cache: 'pip'
       - name: install python dependency
         run: pip install -r requirements.txt
@@ -39,8 +39,8 @@ jobs:
             }
       - name: update to repository
         run: |
-          git config --global user.name 'midcielab'
-          git config --global user.email '8260430+midcielab@users.noreply.github.com'
+          git config --global user.name 'metroish'
+          git config --global user.email '8260430+metroish@users.noreply.github.com'
           git add .
-          git commit -am "Update by GitHub Action $(date)"
+          git commit -am "Updated by GitHub Action $(date)"
           git push origin main -f

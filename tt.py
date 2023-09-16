@@ -12,12 +12,14 @@ class Item:
 		return "\n" + self.title + "\n" + self.link + "\n"
 
 def get_response(url):
-	headers = {'user-agent': 'Mozilla/5.0 (Android 11; Mobile; rv:101.0) Gecko/101.0 Firefox/101.0'}
-	with requests.get(url, headers=headers, timeout = 30) as resp:
-		if resp.status_code == 200:
-			return resp.text
-		else:
-			return "fail"
+	headers = {'user-agent': 'Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.5938.60 Mobile Safari/537.36'}
+	try:
+		with requests.get(url, headers=headers, timeout = 30) as resp:
+			if resp.status_code == 200:
+				return resp.text
+	except:
+		pass
+	return "fail"
 
 def parsing_xml(xml):
 	item_list = []
