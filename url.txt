@@ -1,7 +1,7 @@
 https://kaif.io/hot.rss|2023-09-15 09:11:37
-https://www.daemonology.net/hn-daily/index.rss|2023-09-16 15:05:45
-https://www.daemonology.net/hn-weekly-ask/index.rss|2023-09-10 09:10:10
-https://feedpress.me/lobsters-daily|2023-09-16 15:05:47
+https://www.daemonology.net/hn-daily/index.rss|2023-09-17 09:10:18
+https://www.daemonology.net/hn-weekly-ask/index.rss|2023-09-17 09:10:18
+https://feedpress.me/lobsters-daily|2023-09-17 09:10:20
 https://blog.gslin.org/feed|2023-09-12 09:11:56
 https://feeds.feedburner.com/Darkthread|2023-09-16 15:05:48
 https://www.ithome.com.tw/rss|2023-09-16 15:05:49
