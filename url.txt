@@ -1,6 +1,6 @@
 https://kaif.io/hot.rss|2023-12-15 09:12:26
-https://www.daemonology.net/hn-daily/index.rss|2023-12-16 09:11:12
-https://www.daemonology.net/hn-weekly-ask/index.rss|2023-12-10 09:10:51
+https://www.daemonology.net/hn-daily/index.rss|2023-12-17 09:11:01
+https://www.daemonology.net/hn-weekly-ask/index.rss|2023-12-17 09:11:01
 https://feedpress.me/lobsters-daily|2023-09-21 09:12:16
 https://blog.gslin.org/feed|2023-12-16 09:11:14
 https://feeds.feedburner.com/Darkthread|2023-12-16 09:11:14
@@ -15,4 +15,4 @@ https://businessyee.substack.com/feed|2023-02-04 09:12:04
 https://manny-li.com/feed|2023-07-25 09:12:45
 https://dushuyizhi.net/feed|2023-12-10 09:10:59
 https://changyuchieh.com/feed|2023-12-14 09:12:29
-https://feeds.feedblitz.com/baeldung&x=1|2023-12-15 09:12:38
+https://feeds.feedblitz.com/baeldung&x=1|2023-12-17 09:11:14
