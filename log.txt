@@ -1,4 +1,4 @@
-2024-04-19 09:13:16 Feeds Report Log
+2024-04-20 09:10:51 Feeds Report Log
 https://kaif.io/hot.rss -> ok
 https://www.daemonology.net/hn-daily/index.rss -> ok
 https://www.daemonology.net/hn-weekly-ask/index.rss -> ok
@@ -15,5 +15,5 @@ https://voicettank.org/sitemap.rss -> ok
 https://businessyee.substack.com/feed -> fail
 https://manny-li.com/feed -> ok
 https://dushuyizhi.net/feed -> ok
-https://changyuchieh.com/feed -> ok
+https://changyuchieh.com/feed -> fail
 https://feeds.feedblitz.com/baeldung&x=1 -> ok
