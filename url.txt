@@ -1,10 +1,10 @@
-https://kaif.io/hot.rss|2024-10-26 09:14:37
-https://www.daemonology.net/hn-daily/index.rss|2024-10-26 09:14:37
-https://www.daemonology.net/hn-weekly-ask/index.rss|2024-10-20 09:14:46
+https://kaif.io/hot.rss|2024-10-27 09:15:05
+https://www.daemonology.net/hn-daily/index.rss|2024-10-27 09:15:05
+https://www.daemonology.net/hn-weekly-ask/index.rss|2024-10-27 09:15:06
 https://feedpress.me/lobsters-daily|2023-09-21 09:12:16
 https://blog.gslin.org/feed|2024-10-26 09:14:40
 https://feeds.feedburner.com/Darkthread|2024-10-26 09:14:40
-https://www.ithome.com.tw/rss|2024-10-26 09:14:41
+https://www.ithome.com.tw/rss|2024-10-27 09:15:08
 https://www.inside.com.tw/feed/rss|2024-10-26 09:14:41
 https://ckhung0.blogspot.com/feeds/posts/default?alt=rss|2024-09-22 09:14:19
 https://newtoypia.blogspot.com/feeds/posts/default?alt=rss|2024-10-20 09:14:50
