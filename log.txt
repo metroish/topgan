@@ -1,4 +1,4 @@
-2025-01-11 09:14:15 Feeds Report Log
+2025-01-12 09:13:58 Feeds Report Log
 https://kaif.io/hot.rss -> ok
 https://www.daemonology.net/hn-daily/index.rss -> ok
 https://www.daemonology.net/hn-weekly-ask/index.rss -> ok
@@ -13,7 +13,7 @@ https://songmatin.blogspot.com/feeds/posts/default?alt=rss -> ok
 https://www.blogger.com/feeds/1264116278467470539/posts/default?alt=rss -> ok
 https://voicettank.org/sitemap.rss -> ok
 https://businessyee.substack.com/feed -> fail
-https://manny-li.com/feed -> ok
+https://manny-li.com/feed -> fail
 https://dushuyizhi.net/feed -> ok
 https://changyuchieh.com/feed -> ok
 https://feeds.feedblitz.com/baeldung&x=1 -> ok
